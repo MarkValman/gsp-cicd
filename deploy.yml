@@ -1,6 +1,6 @@
 ---
 
-- name: Deploy web appp
+- name: Deploy web app
   hosts: "web"
   become: yes
   gather_facts: True
